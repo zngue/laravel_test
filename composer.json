@@ -1,0 +1,27 @@
+{
+    "name": "zngue/test",
+    "description": "Laravel package",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Èrik Campobadal Forés ",
+        "email": "soc@erik.cat"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zngue\\Test\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zngue\\Test\\TestServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
